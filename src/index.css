@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  .bg-paper {
+    background-color: #F5F2ED;
+  }
+  .text-ink {
+    color: #141414;
+  }
+  .border-ink {
+    border-color: #141414;
+  }
+  .bg-accent {
+    background-color: #FF6321;
+  }
+  .text-accent {
+    color: #FF6321;
+  }
+  .border-accent {
+    border-color: #FF6321;
+  }
+  .glass-editorial {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(20, 20, 20, 0.15);
+  }
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #F5F2ED;
+  color: #141414;
+}

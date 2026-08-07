@@ -1,0 +1,6 @@
+{
+  "name": "Vaniyambadi360",
+  "description": "Local business discovery platform and digital directory for Vaniyambadi featuring AI business profile assistants, category search, mini-websites, lead capture, and business owner listings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
